@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import Typed from 'react-typed';
+
 export default class Header extends Component {
   render() {
     let resumeData = this.props.resumeData;
@@ -22,7 +24,24 @@ export default class Header extends Component {
          <div className="row banner">
             <div className="banner-text">
                <h1 className="responsive-headline">Hi. I'm {resumeData.name}.</h1>
-               <h3 style={{color:'#fff', fontFamily:'sans-serif '}}>{resumeData.roleDescription}
+               <h3 style={{position: 'static', color:'#fff', fontFamily:'ralewaythin '}}> I enjoy doing lots of things.
+               <br/> 
+               {<Typed 
+                    strings={[
+                      ' Climbing',
+                      ' Gaming',
+                      ' Reading']} 
+                      typeSpeed={100}
+                      backSpeed={70}
+                      backDelay={800}
+                      showCursor={false}
+                      >
+               </Typed>}
+
+                <br/>
+                
+               {resumeData.roleDescription}
+               
                </h3>
                <hr/>
                <ul className="social">

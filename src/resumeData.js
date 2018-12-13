@@ -4,7 +4,7 @@ let resumeData = {
     "role": "",
     "linkedinId":"",
     "skypeid": "",
-    "roleDescription": "I Enjoy doing lots of things. Climbing. Reading. Gaming. And coding which is what this site is all about",
+    "roleDescription": " but coding is what this site is all about",
     "socialLinks":[
         // {
         //   "name":"linkedin",

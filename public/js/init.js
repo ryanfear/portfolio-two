@@ -82,13 +82,20 @@
 		var h = $('header').height();
 		var y = $(window).scrollTop();
       var nav = $('#nav-wrap');
+      var ulnav = $('ul#nav');
 
 	   
-         if (y < h*.9) {
+         if (y < h*1) {
             nav.removeClass('opaque').fadeIn('slow');
+         //   ulnav.css({'text-align': 'center'});
+            ulnav.css({'width': ''})
+           
          }
          else {
             nav.addClass('opaque').fadeIn('slow');
+          //  ulnav.css({'text-align': 'right'});
+          //  ulnav.css({'width': 0})
+            
          }
       
 
