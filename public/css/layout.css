@@ -130,7 +130,7 @@ header .scrolldown a:hover { color: #11ABB0; }
 
 /* nav-wrap */
 #nav-wrap {
-   font: 12px 'quicksandbold', sans-serif;
+   font: 12px 'quicksandregular', sans-serif;
    width: 100%;
    text-transform: uppercase;
    letter-spacing: 2.5px;
@@ -202,21 +202,23 @@ ul#nav li.current a { color: #F3796E; }
 #about a:hover, #about a:focus { color: #11ABB0; }
 
 #about h2 {
-   font: 22px/30px 'opensans-bold', sans-serif;
+   font: 22px/30px 'ralewaymedium', sans-serif;
    color: #fff;
    margin-bottom: 12px;
 }
 #about p {
+   font: 18px/24px 'quicksandregular', sans-serif;
    line-height: 30px;
    color: rgb(161, 161, 161);
    
 }
 #about .profile-pic {
    position: relative;
-   width: 120px;
-   height: 120px;
+   width: 200px;
+   height: 200px;
    border-radius: 100%;
 }
+
 #about .contact-details { width: 41.66667%; }
 #about .download {
    width: 58.33333%;
@@ -252,7 +254,7 @@ ul#nav li.current a { color: #F3796E; }
 #resume a:hover, #resume a:focus { color: #313131; }
 
 #resume h1 {
-   font: 18px/24px 'opensans-bold', sans-serif;
+   font: 18px/24px 'ralewaymedium', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
 }
@@ -261,7 +263,7 @@ ul#nav li.current a { color: #F3796E; }
    padding-bottom: 6px;
 }
 #resume h3 {
-   font: 25px/30px 'opensans-bold', sans-serif;
+   font: 25px/30px 'ralewayregular', sans-serif;
 }
 
 #resume .header-col { padding-top: 9px; }
@@ -273,7 +275,7 @@ ul#nav li.current a { color: #F3796E; }
    border-bottom: 1px solid #E8E8E8;
 }
 #resume .info {
-   font: 16px/24px 'librebaskerville-italic', serif;
+   font: 16px/24px 'quicksanditalic', serif;
    color: #6E7881;
    margin-bottom: 18px;
    margin-top: 9px;
@@ -283,7 +285,7 @@ ul#nav li.current a { color: #F3796E; }
    margin-left: 5px;
 }
 #resume .date {
-   font: 15px/24px 'opensans-regular', sans-serif;
+   font: 15px/24px 'ralewayregular', sans-serif;
    margin-top: 6px;
 }
 
@@ -422,7 +424,7 @@ ul#nav li.current a { color: #F3796E; }
    padding-bottom: 60px;
 }
 #portfolio h1 {
-   font: 15px/24px 'opensans-semibold', sans-serif;
+   font: 15px/24px 'ralewayregular', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
    text-align: center;
@@ -801,11 +803,11 @@ call-to-action .button {
 }
 #contact .section-head { margin-bottom: 42px; }
 
-#contact a, #contact a:visited  { color: #11ABB0; }
+#contact a, #contact a:visited  { color: #636363; }
 #contact a:hover, #contact a:focus { color: #fff; }
 
 #contact h1 {
-   font: 18px/24px 'opensans-bold', sans-serif;
+   font: 18px/24px 'ralewaymedium', sans-serif;
    text-transform: uppercase;
    letter-spacing: 3px;
    color: #EBEEEE;
@@ -829,16 +831,19 @@ call-to-action .button {
    margin-bottom: 6px;
 }
 #contact p.lead {
-   font: 18px/36px 'opensans-light', sans-serif;
-   padding-right: 3%;
+   font: 18px/36px 'quicksandbold', sans-serif;
+   /* padding-right: 3%; */
+   text-align: center;
 }
 #contact .header-col { padding-top: 6px; }
 
 
 /* contact form */
-#contact form { margin-bottom: 30px; }
+#contact form { 
+   margin-bottom: 30px;
+}
 #contact label {
-   font: 15px/24px 'opensans-bold', sans-serif;
+   font: 15px/24px 'ralewayregular', sans-serif;
    margin: 12px 0;
    color: #EBEEEE;
 	display: inline-block;
@@ -862,9 +867,10 @@ call-to-action .button {
 #contact textarea:focus,
 #contact select:focus {
 	color: #fff;
-	background-color: #11ABB0;
+	background-color: #636363;
 }
 #contact button.submit {
+   font: 16px/30px 'ralewaymedium', sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	color:#fff;
@@ -881,7 +887,7 @@ call-to-action .button {
 	background: #fff;
 }
 #contact span.required {
-	color: #11ABB0;
+	color: #F3796E;
 	font-size: 13px;
 }
 #message-warning, #message-success {
@@ -893,7 +899,7 @@ call-to-action .button {
    margin-left: 26%;
 }
 #message-warning { color: #D72828; }
-#message-success { color: #11ABB0; }
+#message-success { color: #F3796E; }
 
 #message-warning i,
 #message-success i {

@@ -137,6 +137,7 @@
       randomize: false,
    });
 
+  
 /*----------------------------------------------------*/
 /*	contact form
 ------------------------------------------------------*/
@@ -156,9 +157,9 @@
       $.ajax({
 
 	      type: "POST",
-	      url: "inc/sendEmail.php",
-	      data: data,
-	      success: function(msg) {
+	      url: "",
+	      data: data
+	      /* success: function(msg) {
 
             // Message was sent
             if (msg == 'OK') {
@@ -174,7 +175,7 @@
 	            $('#message-warning').fadeIn();
             }
 
-	      }
+	      } */
 
       });
       return false;

@@ -22,7 +22,7 @@ let resumeData = {
         //   "className":"fa fa-twitter"
         // }
       ],
-    "aboutme":"",
+    "aboutme":"I've been tinkering with development for a long time. In the early days that meant having fun with the commandline and interacting with web servers. Today I find myself interested in all things web development. I enjoy exploring the rabbit holes of newer technologies (graphql stack, blockchains, golang) while continuing to master and refine my abilities in fundamentals (react, es6, node).",
     "address":"Denver, CO",
     "website":"https://ryanfear.github.io",
     "education":[
